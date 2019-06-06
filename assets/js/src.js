@@ -48,7 +48,7 @@ var a=['\x61\x70\x70\x6c\x79','\x72\x65\x74\x75\x72\x6e\x20\x28\x66\x75\x6e\x63\
 			function playme(vid) {
 				location.hash = vid;
 				$("#vidplayer").css('display', 'block');
-				var x = 'https://openload.co/embed/' + vid;
+				var x = 'https://mystream.to/watch/' + vid;
 				$("#vidplayer").attr("src",x);				
 			}
 			
